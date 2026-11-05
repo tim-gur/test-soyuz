@@ -5,7 +5,8 @@
 и commercial-блок. LLM: LiquidAI: LFM2.5-2.6B через OpenRouter (бесплатный тариф).
 
 Сервис запускается через Docker или локально через Python 3.10+. Для тестов
-нужен Python 3.10+.
+нужен Python 3.10+.  
+Пример вывода можно посмотреть в `examples/outputs/`.
 
 ## Запуск сервиса
 
@@ -27,7 +28,7 @@ docker rm -f product-card
 ```
 Если порт 8000 занят, смените порт: `-p 8080:8000`.
 
-### Вариант 2: локально (uvicorn)
+### Вариант 2: uvicorn
 
 ```bash
 python -m venv .venv
